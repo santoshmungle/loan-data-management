@@ -104,11 +104,6 @@ names(LeadRep) <- c("leadrep5", "leadrep5mktshrare", "leadrep5num",
 
 names(numcov) <- c("numcov")
 LoanDataManagement <- cbind(numcov, LeadRep)
-#for (i in 1:length(LeadAgentList)) {
-#   for (j in 1:length(LeadAgentList[[i]])){
-#     LeadAgentList[[i]][j][LeadAgentList[[i]][j] == "BOA\n"] <- "bank of america merrill lynch"
-#   }
-#}
 
 write.csv(LoanDataManagement, 'LoanDataManagement.csv')
 
