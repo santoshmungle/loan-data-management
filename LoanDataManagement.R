@@ -1,4 +1,4 @@
-#Setting a working directory. Working directory is folder where all data files are located
+#Setting a working directory
 setwd("C:/Users/SANTOSH/Desktop/Loan Data Management")
 
 # Extracting the excel files
